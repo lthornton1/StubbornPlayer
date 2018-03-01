@@ -12,7 +12,7 @@ int main()
 
   cout << "How many times would you like to play?"<<endl;
   cin >> play;
-  for (int i=0; i<=play; i++){
+  for (int i=0; i<play; i++){
 
     game.newGame();
     game.guessDoorC();
